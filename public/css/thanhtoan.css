@@ -1,0 +1,94 @@
+
+.chinh {
+	background:  #fff;
+	width: 600px;
+
+	margin: auto;
+	padding: 50px;
+}
+input.dep{
+	display: block;
+	padding: 5px;
+	border: 5px solid #d9d9d9;
+	border-radius: 100px;
+	margin: 34px 0 30px;
+	text-indent: 9px;
+}
+input.dep1{
+
+	    padding: 20px 0;
+	    height: 20px;
+	    border: 4px solid #d9d9d9;
+	    border-radius: 30px;
+	    text-indent: 10px;
+	    width: 46.0%;
+}
+input.dep2{
+	  float: right;
+    position: relative;
+    width: 50%;
+    border: 4px solid #d9d9d9;
+    border-radius: 30px;
+    font-size: 14px;
+}
+input.dep3{
+	    padding: 20px 0;
+    height: 20px;
+    border: 4px solid #d9d9d9;
+    border-radius: 30px;
+    margin: 5px 0;
+    text-indent: 10px;
+    width: 100%;
+}
+input.dep.ten {
+    width: 81%;
+}
+input.dep.sdt{
+	width: 81%;
+}
+input.dep.gmail{
+	width: 81%;
+}
+input.ro {
+    margin: 0px 0px 10px 10px;
+}
+input.dep.yeucau{
+	width: 81%;
+}
+div.test{
+	 overflow: visible;
+    background: #f0f0f0;
+    margin-top: 15px;
+    padding: 20px 20px 0 20px;
+    position: relative
+}
+
+.test:before {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 65px;
+    width: 0;
+    height: 0;
+    border-bottom: 10px solid #f0f0f0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+}
+div.tetua {
+    overflow: visible;
+    background: #f0f0f0;
+    margin-top: 15px;
+    padding: 20px;
+    position: relative;
+}
+.tetua:before {
+    content: '';
+    position: absolute;
+    bottom: 100%;
+    left: 178px;
+    width: 0;
+    height: 0;
+    border-bottom: 10px solid #f0f0f0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+}

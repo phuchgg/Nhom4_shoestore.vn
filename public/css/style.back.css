@@ -1,0 +1,91 @@
+body{
+	background-color: #6f6d72;
+	color: #FFF;
+	background-image: url(../images/body_bg.gif);
+}
+.header-area {
+    background: none repeat scroll 0 0 #3a3a3a;
+    border-bottom: 2px solid #dddd71;
+}
+h3, h4{
+    font-weight: 700;
+    margin: 5px 0px 20px 20px;
+}
+table{
+	margin: auto;
+}
+tr{
+	border-bottom: 1px solid #3a3a3a;
+}
+tr:last-child{
+	border: none;
+}
+
+input,textarea,select,option{
+	color: #FFF;
+	background-color: #222;
+	border-radius: 4px !important;
+}
+.main_content{
+	padding:5px 0 5px 0; 
+	margin:5px 0 5px 0;
+	min-height: 500px;
+}
+.copyright{
+	color: #FFF;
+	background-color: #3a3a3a;
+	height: 100px;
+	width: 100%;
+	border-top: 2px solid #dddd71;
+	align-content: center;
+}
+.copyright img{
+	text-align: center;
+	width: 160px;
+	float: left;
+	margin-left: 30%;
+}
+.copyright p{
+	text-align: center;
+	vertical-align: center;
+	margin-left:10px; 
+	float: left;
+	margin: 25px 0 0 20px;
+}
+.copyright p span{
+	text-align: center;
+	font-size: 20px;
+}
+li{
+	list-style: none;
+}
+.login span{
+	background-color: #1abc9c;
+    color: #FFF;
+    border-radius: 4px;
+    padding: 3px;
+}
+input[type="text"], input[type="password"], input[type="email"], input[type="number"],select{
+    border: 1px solid #222;
+    padding: 10px;
+    width: 350px!important;
+}
+.create_content input[type="text"], .create_content input[type="password"], .create_content input[type="email"], .create_content input[type="number"],.create_content select{
+    border: 1px solid #222;
+    padding: 10px;
+    width: 430px!important;
+}
+.create_content tr{
+ border: none;
+}
+textarea{
+    border: 1px solid #222;
+    padding: 10px;
+    width: 100%;
+}
+table{
+	border: 1px  #E72121!important;
+}
+.small_Image label{
+	margin-right:10px; 
+}

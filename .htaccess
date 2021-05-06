@@ -1,0 +1,37 @@
+
+RewriteEngine On
+RewriteRule "^staff/$" "admin.php"
+RewriteRule "^staff/([a-zA-Z_]+)/$" "admin.php?mod=$1"
+RewriteRule "^staff/([a-zA-Z_]+)/([a-zA-Z0-9_]+)/$" "admin.php?mod=$1&id=$2"
+RewriteRule "^staff/([a-zA-Z_]+)/([a-zA-Z0-9_]+)/$" "admin.php?mod=$1&cid=$2"
+
+<IfModule mod_expires.c>
+
+ExpiresActive on
+
+ExpiresByType text/html "access plus 0 seconds"
+
+ExpiresByType audio/ogg "access plus 1 month"
+
+ExpiresByType image/gif "access plus 1 month"
+
+ExpiresByType image/jpeg "access plus 1 month"
+
+ExpiresByType image/png "access plus 1 month"
+
+ExpiresByType video/mp4 "access plus 1 month"
+
+ExpiresByType video/ogg "access plus 1 month"
+
+ExpiresByType video/webm "access plus 1 month"
+
+ExpiresByType application/javascript "access plus 1 year"
+
+ExpiresByType text/css "access plus 1 year"
+
+</IfModule>
+
+<Files .htaccess>
+Order Allow,Deny
+Deny from all
+</Files>
